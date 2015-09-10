@@ -10,75 +10,79 @@
 
     <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
 Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
     <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
     <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
 Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen. </p>
 
     <form>
         <fieldset>
             <legend>Contactgegevens:</legend>
-                 Naam: <input type="text"><br>
-                 Bedrijf: <input type="text"><br>
-                 Adres: <input type="text"><br>
-                 Postcode: <input type="text"><br>
-                 Plaats: <input type="text"><br>
-                 Telefoon: <input type="text"><br>
-                 Email: <input type="text"><br>
+                 <label>Naam: <input type="text"></label>
+                 <label>Bedrijf: <input type="text"></label>
+                 <label>Adres: <input type="text"></label>
+                 <label>Postcode: <input type="text"></label>
+                 <label>Plaats: <input type="text"></label>
+                 <label>Telefoon: <input type="tel"></label>
+                 <label>Email: <input type="email"></label>
         </fieldset>
 
         <fieldset>
             <legend>Ik wil mij aanmelden:</legend>
-                <input type="radio" name="type" value="Voor een project" checked>Voor een project <br>
+                <input type="radio" name="type" value="Voor een project" checked>Voor een project
                 <input type="radio" name="type" value="Als stagebedrijf">Als stagebedrijf
         </fieldset>
 
         <fieldset>
     ￼￼        <legend>Project</legend>
-                ￼￼1. Titel<input type="text"><br>
-                2. Opdrachtomschrijving<input type="text"><br>
-                3. Doelgroepomschrijving<input type="text"><br>
-                4. Doelstelling/intentievanhetproject<input type="text"><br>
-                5. Looptijd<input type="text"><br>
-                6. Deadline<input type="text"><br><br>
+                ￼￼<label>1. Titel<input type="text"></label>
+                <label>2. Opdrachtomschrijving<input type="text"></label>
+                <label>3. Doelgroepomschrijving<input type="text"></label>
+                <label>4. Doelstelling/intentievanhetproject<input type="text"></label>
+                <label>5. Looptijd<input type="text"></label>
+                <label>6. Deadline<input type="number"></label>
 
                 Geschikt voor: <br>
-                <input type="checkbox">1. eerstejaarsstudenten <br>
-                <input type="checkbox">2. tweedejaarsstudenten <br>
-                <input type="checkbox">3. derdejaarsstudenten <br>
-                <input type="checkbox">4. afstudeerstudenten <br>
-                <input type="checkbox">5. onbekend <br><br>
+                <input type="checkbox">1. eerstejaarsstudenten
+                <input type="checkbox">2. tweedejaarsstudenten
+                <input type="checkbox">3. derdejaarsstudenten
+                <input type="checkbox">4. afstudeerstudenten
+                <input type="checkbox">5. onbekend
 
-                Opmerking<input type="text"><br>
+                Opmerking<input type="text">
         </fieldset>
 
         <fieldset>
             <legend>Stage</legend>
-                Geschikt voor: <br>
-                        <input type="checkbox">1. tweedejaarsstudenten <br>
-                        <input type="checkbox">2. afstudeerstudenten <br>
-                        <input type="checkbox">3. onbekend <br><br>
-                1. Hoelangisdestage?<br>
-                        <input type="radio" name="length" value="10 weken" checked>10 weken <br>
-                        <input type="radio" name="length" value="20 weken" checked>20 weken <br><br>
-                2. Begindatum <input type="date"><br><br>
+                Geschikt voor:
+                        <input type="checkbox">1. tweedejaarsstudenten
+                        <input type="checkbox">2. afstudeerstudenten
+                        <input type="checkbox">3. onbekend
+                1. Hoelangisdestage?
+                        <input type="radio" name="length" value="10 weken" checked>10 weken
+                        <input type="radio" name="length" value="20 weken" checked>20 weken
+                2. Begindatum <input type="date">
 
 
-                Beschrijving werkzaamheden: <br>
-                1. Beschrijvingstagewerkzaamheden <input type="text"><br><br>
+                Beschrijving werkzaamheden:
+                1. Beschrijvingstagewerkzaamheden <input type="text">
                 ￼￼￼￼￼￼￼￼
-                ￼￼￼￼Beschrijving stagebedrijf: <br>
-                1. Bedrijfsnaam <input type="text"><br>
-                2. Adres <input type="text"><br>
-                3. postcode <input type="text"><br>
-                4. Plaats <input type="text"><br>
-                5. Sector <input type="text"><br>
-                6. CoreBusiness <input type="text"><br><br>
+                ￼￼￼￼Beschrijving stagebedrijf:
+                <label>1. Bedrijfsnaam <input type="text"></label>
+                <label>2. Adres <input type="text"></label>
+                <label>3. postcode <input type="text"></label>
+                <label>4. Plaats <input type="text"></label>
+                <label>5. Sector <input type="text"></label>
+                <label>6. CoreBusiness <input type="text"></label>
 
-                Opmerking <input type="text"><br>
+                Opmerking <input type="text">
          </fieldset>
     </form>
 
 </main>
 </body>
 </html>
+
+//labels & section artikelen <br> weg
 

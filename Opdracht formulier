@@ -78,6 +78,7 @@ Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen. </p>
 
                 Opmerking <input type="text">
          </fieldset>
+            <input type="submit" name="submit">
     </form>
 
 </main>
